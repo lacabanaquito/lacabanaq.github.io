@@ -1,0 +1,84 @@
+@font-face{
+ font-family:"fuente-fabricio";
+ src:url(ubuntu-title-fr-1.1.ttf);	
+}
+.encabezado{
+	font-family:fuente-fabricio;
+	color:#FFF;
+	background-color:#000;
+	text-align:center;
+	height:150px;
+	text-shadow:5px 5px 10px #00FF00;
+	transition:1s;
+	-webkit-transition:1s;
+	-moz-transition:1s;
+}
+.encabezado:hover{
+	border:none;
+	color:#000;
+	background-color:#999;
+	text-align:center;
+	height:150px;
+	cursor:pointer;
+	transition:1s;
+	-webkit-transition:1s;
+	-moz-transition:1s;
+}
+
+.logo{
+	background-image:url(../imagenes/logo.png);
+	height:150px;
+	width:175px;
+	position:absolute;
+	top:11px;
+	left:260px;
+}
+
+.logo:hover{
+	background-image:url(../imagenes/logo.png);
+	height:150px;
+	width:175px;
+	position:absolute;
+	top:11px;
+	left:260px;
+	transform: scale(0.5,0.5);
+	transition:1s;
+	-webkit-transform: scale(0.5,0.5);
+	-moz-transform: scale(0.5,0.5);
+	-webkit-transition:1s;
+	-moz-transition:1s;
+}
+
+.menu{
+	text-align:center;
+	color:#FFF;
+	background-color:#003;
+	height:35px;
+	
+}
+.menu li{
+	display:inline;	
+}
+
+.columna1{
+	text-align:center;
+	background-color:#CCC;
+	text-decoration:blink;
+}
+
+.columna2{
+	text-align:center;
+	background-color:#999;
+	text-decoration:blink;
+}
+
+.columna3{
+	text-align:center;
+	background-color:#CCC;
+	text-decoration:blink;
+}
+
+.pie{
+	text-align:center;
+	height:20px;	
+}

@@ -1,0 +1,49 @@
+.tabla{
+	border:1px solid gray;
+	background-color:#666;
+	width:600px;
+	height:600px;
+	box-shadow:5px 5px #FF00FF;
+	background-image:url(../NUMEROS/fondo.fw.png);
+		
+}
+.tabla td {
+	
+	
+}
+.estilo1:hover{
+	background-color:#30F;
+	background-image:url(../NUMEROS/1.fw.png);
+}
+.estilo2:hover{
+	background-color:#33F;
+	background-image:url(../NUMEROS/2.fw.png);
+}
+.estilo3:hover{
+	background-color:#36F;
+	background-image:url(../NUMEROS/3.fw.png);
+}
+.estilo4:hover{
+	background-color:#39F;
+	background-image:url(../NUMEROS/4.fw.png);
+}
+.estilo5:hover{
+	background-color:#3CF;
+	background-image:url(../NUMEROS/5.fw.png);
+	}
+.estilo6:hover{
+	background-color:#3FF;
+	background-image:url(../NUMEROS/6.fw.png);
+}
+.estilo7:hover{
+	background-color:#390;
+	background-image:url(../NUMEROS/7.fw.png);
+}
+.estilo8:hover{
+	background-color:#3C0;
+	background-image:url(../NUMEROS/8.fw.png);	
+}
+.estilo9:hover{
+	background-color:#3F0;
+	background-image:url(../NUMEROS/9.fw.png);
+}
