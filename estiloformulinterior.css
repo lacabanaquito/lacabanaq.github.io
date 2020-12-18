@@ -1,0 +1,36 @@
+.tabla{
+	background-color:#F60;
+	border-radius:20px 20px 20px 20px;	
+}
+.titulo{
+	border-radius:20px 20px 0px 0px;
+	text-align:center;
+	color:#999;
+	font-family:"Comic Sans MS", cursive;
+	font-size:24px;
+	text-shadow:5px 5px 5px #FF0000;
+	transition:1s;
+	-webkit-transition:1s;
+	-moz-transition:1s;
+}
+
+.titulo:hover{
+	border-radius:20px 20px 0px 0px;
+	cursor:pointer;
+	text-align:center;
+	color:#000;
+	font-family:"Comic Sans MS", cursive;
+	font-size:27px;
+	text-shadow:5px 5px 5px #33FF00;
+	transition:1s;
+	-webkit-transition:2s;
+	-moz-transition:1s;
+}
+
+.datos{
+text-align:center;
+font-family:"Comic Sans MS", cursive;
+color:#FFF;
+font-weight:bold;	
+}
+
